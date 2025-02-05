@@ -1,0 +1,19 @@
+{
+
+  "version": 2,
+
+  "name": "blog-express-mongodb",
+
+  "builds": [
+
+    { "src": "src/index.ts", "use": "@vercel/node" }
+
+  ],
+
+  "routes": [
+
+    { "src": "/(.*)", "dest": "/app.js" }
+
+  ]
+
+}
